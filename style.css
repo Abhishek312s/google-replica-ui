@@ -1,0 +1,121 @@
+body{
+    margin: 0%;
+    /* background-color: #35363A; */
+    /* color: white; */
+}
+.navdiv{
+    text-align: right;
+    margin-bottom: 70px;
+}
+.gb_Pe{
+    height:25px;
+    width: 40px;
+    position: absolute;
+    top: 8px;
+}
+
+.btnnav{
+    background-color:#1a73e8;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 8px;
+    font-size:15px;
+    padding: 8px 26px;
+}
+
+.navlink{
+  position: relative;
+  right: 15px;
+}
+
+.navtxt{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size:13px;
+    font-family: Arial, sans-serif;
+    padding: 6px;
+}
+
+.maingo{
+    /* position: absolute;
+    top: 17%;
+    left: 40%; */
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.centerbtn{
+    padding: 10px 16px;
+    margin: 5px;
+    background-color:#f8f9fa;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 8px;
+}
+
+.centerbtn:hover{
+    border: 1px solid #979899;
+}
+
+.inputmain{
+    height: 2.4rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 30px;
+    width: 100%;
+    padding: 3px 35px 3px 38px;
+    font-size: 18px;   
+    /* background: url("https://i2.wp.com/www.thinkafrica.fi/wp-content/uploads/2019/04/search-icon.png?fit=1200%2C1200&ssl=1&w=640") no-repeat;
+    background-position: left 10px;
+    background-size: 20px; */
+}
+.inputmain:hover{
+    box-shadow: 0px 0px 3px 5px #eeeff0;
+}
+
+.inputicon{
+    position: absolute;
+    right: 14px;
+    cursor: pointer;
+  }
+
+.inputico2{
+    height: 20px;
+    position:absolute;
+    left:14px;
+}
+.offered{
+    margin: 1.6rem 0.2rem 1.4rem 0.8rem;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+.languageof{
+    margin: 4px;
+    text-decoration: none;
+}
+
+.inputcontainer{
+    width: 36rem;
+    margin: 35px 0px 25px 0px;
+    display: flex;
+    flex: 70%;
+    align-items: center;
+    position: relative;
+}
+@media screen and (max-width: 550px) {
+    .inputcontainer {
+      width: 25rem;
+    }
+  }
+@media screen and (max-width: 376px) {
+    .inputcontainer {
+      width: 20rem;
+    }
+  }
+
